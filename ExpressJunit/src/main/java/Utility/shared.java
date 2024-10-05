@@ -46,7 +46,9 @@ public class shared {
 		ele.click();
 	}
 
-	
+	public static void typeOnTestBox(WebElement ele,String s ) {
+		ele.sendKeys(s);
+	}
 	
 	
 }
